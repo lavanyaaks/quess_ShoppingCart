@@ -1,0 +1,23 @@
+
+<div class="product-list-container">
+    <div class="gallery" *ngFor="let product of products | filter:{ property: ''} : filterColorService : colorText : colorLength : filteredBand">
+        <a target="_blank" [href]="product.image">
+          <img [src]="product.image" alt="product.name" width="600" height="400">
+        </a>
+        <div class="details">
+            <div class="left-coloumn">
+                <span>{{product.title}}</span><br>
+                <span>{{product.brand}}</span><br>
+                <span>{{product.price.final_price}}$</span>
+            </div>
+            <div class="right-coloumn">
+                <!-- <span>{{product.colour.color}}</span><br> -->
+                <div>color<input type="checkbox"></div>
+                <div><i class="fa fa-plus-circle" aria-hidden="true"></i>Add</div>
+            </div>
+
+        </div>
+        
+      </div>
+</div>
+

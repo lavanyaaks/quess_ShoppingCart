@@ -1,0 +1,8 @@
+.price{
+    display: flex;
+}
+.min{
+    margin-right: 20%;
+    margin-bottom: 12px;
+    margin-left: 20%;
+}

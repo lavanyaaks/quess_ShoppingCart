@@ -1,0 +1,38 @@
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    /* float: left; */
+    width: 340px;
+    display: inline-block;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 200px;
+  }
+  
+  /* div.desc {
+    padding: 15px;
+    text-align: center;
+  } */
+  .left-coloumn{
+      float:left;
+      width: 80%;
+    }
+  
+  .right-coloumn{
+      float: right;
+  }
+
+  @media only screen   and (min-width: 1370px)  and (max-width: 1605px)  { 
+    div.gallery {
+      width: 300px;
+    }
+ 
+  }  

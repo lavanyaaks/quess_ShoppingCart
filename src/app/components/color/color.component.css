@@ -1,0 +1,14 @@
+.filter_color{
+    display: inline-block;
+    margin: 2px;
+    width: 26%;
+    
+    
+}
+@media only screen   and (min-width: 1370px)  and (max-width: 1605px)  { 
+.filter_color {
+    display: inline-block;
+    margin: 2px;
+    width: 30%;
+}
+}

@@ -1,0 +1,13 @@
+ /* .prouct-container{
+    height: 300px;
+    display: flex;
+    width: 90%;
+    border-bottom: 1px solid grey;
+}  */
+
+.container{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top:20px;
+}

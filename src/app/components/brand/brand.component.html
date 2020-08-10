@@ -1,0 +1,4 @@
+
+<div class="brands" *ngFor="let brand of brands">
+  <input type="checkbox"  name="band" value="{{brand}}" (click)="brandChange($event,brand)">
+<label for="vehicle1"> {{brand.title}}</label>

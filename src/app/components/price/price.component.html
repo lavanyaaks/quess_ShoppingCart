@@ -1,0 +1,14 @@
+<div class="price">
+    <div class="min">
+        <select name="cars" id="cars">
+            <option *ngFor="let minValue of min" value="{{minValue}}">{{minValue}}</option>
+          </select>
+    </div>
+    <div class="max">
+        <select name="max" id="max" >
+            <option *ngFor="let maxValue of max" value="{{maxValue}}">{{maxValue}}</option>
+          </select>
+    </div>
+    
+</div>
+

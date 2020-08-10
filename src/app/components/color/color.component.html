@@ -1,0 +1,7 @@
+<!-- <div class="filter_color">
+      <input type="checkbox"  name="vehicle1" value="{{color.color}}" (click)="colorChange($event,color)">
+    <label for="vehicle1"> {{color.color}}</label>
+</div> -->
+<div class="filter_color" *ngFor="let col of filterColor">
+  <input type="checkbox"  name="vehicle1" value="{{col}}" (click)="colorChange($event,col)">
+<label for="vehicle1"> {{col.color}}</label>

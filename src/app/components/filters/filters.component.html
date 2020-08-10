@@ -1,0 +1,23 @@
+<div class="filter-container">
+    <div class="color">
+        <h3>Color</h3>
+        <app-color  [filterColor]="filter_color"></app-color>
+        <!-- <div class="filter_color" *ngFor="let col of filter_color">
+            <input type="checkbox"  name="vehicle1" value="{{col}}" (click)="colorChange($event,col)">
+          <label for="vehicle1"> {{col.color}}</label>
+      </div> -->
+    </div>
+    <div class="brand">
+        <h3>Brand</h3>
+        <app-brand  [brands]="brands"></app-brand>
+    </div>
+    <div class="price">
+        <h3>Price</h3>
+        <app-price [max]="max" [min]="min"></app-price>
+    </div>
+    <div class="discount">
+        <h3>Discount</h3>
+        <app-discount [discount]="discount"></app-discount>
+        <!-- <app-price *ngFor="let pric of price" [price]="pric"></app-price> -->
+    </div>
+</div>

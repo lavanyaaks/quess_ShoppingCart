@@ -1,0 +1,27 @@
+.color,.price,.discount{
+    border:1px solid grey;
+    
+}
+.brand{
+    border:1px solid grey;
+    height: 170px;
+    overflow-x: hidden;
+    margin: 10px 0px;
+}
+.price,.discount{
+    margin: 10px 0px;
+}
+.filter_color{
+    display: inline-block;
+    margin: 2px;
+    width: 26%;
+    
+    
+}
+@media only screen   and (min-width: 1370px)  and (max-width: 1605px)  { 
+.filter_color {
+    display: inline-block;
+    margin: 2px;
+    width: 30%;
+}
+}

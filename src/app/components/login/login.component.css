@@ -1,0 +1,42 @@
+form {
+    border: 3px solid #f1f1f1;
+    width:50%;
+    margin:10% auto;
+  }
+  /* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 80%;
+    padding: 12px 20px;
+    /* margin: 8px 0; */
+    display: block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin: 18px auto;
+    border-radius: 7px;
+  }
+  /* Set a style for all buttons */
+button {
+    background-color: white;
+    color: black;
+    padding: 14px 20px;
+    /* margin: 8px 0; */
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border: 1px solid #f1f1f1;
+    width: 20%;
+    display: block;
+    margin: 18px auto;
+    border-radius: 7px;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  .login-heading{
+    margin-left: 35px;
+  }
+  input[type=text], input[type=password]{
+    background-color: gainsboro;
+  }
